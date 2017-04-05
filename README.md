@@ -1,7 +1,11 @@
 # Table of Contents
-1. [Implementation Summary](README.md#implementation-summary)
-2. [Details of Implementation](README.md#details-of-implementation)
+1. [How To Execute](README.md#how-to-execute)
+2. [Implementation Summary](README.md#implementation-summary)
+3. [Details of Implementation](README.md#details-of-implementation)
 
+# How To Execute
+
+The code is implemented in Java. To compile and execute the code, JDK 8 is the only dependency you need to have. Simply executing ./run.sh will compile and execute the code.
 
 # Implementation Summary
 
