@@ -5,7 +5,11 @@
 
 # How To Execute
 
-The code is implemented in Java. To compile and execute the code, JDK 8 is the only dependency you need to have. Simply executing ./run.sh will compile and execute the code.
+The code is implemented in Java. 
+
+The source code doesn't depend on any third party libraries and could directly be compile and executed using the command line in `run.sh`. This would be enough to generate the result files.
+
+The unit test code is under `./test` and is depending on junit library. The jar files are already put under `./lib` so executing `./run_unit_test` would verify if all unit tests pass or not. 
 
 # Implementation Summary
 
