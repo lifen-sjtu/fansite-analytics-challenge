@@ -5,7 +5,7 @@
 
 # How To Execute
 
-The code is implemented in Java. 
+The code is implemented in Java. You need to have JDK 8 ready to run the code.
 
 The source code doesn't depend on any third party libraries and could directly be compile and executed using the command line in `run.sh`. This would be enough to generate the result files.
 
