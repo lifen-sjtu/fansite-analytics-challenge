@@ -32,4 +32,8 @@ public class TopResourceProcessor {
 
     return PriorityQueueUtil.getTopN(elements, Resource.getComparator(), n);
   }
+
+  public Map<String, Long> getResourcesCounters() {
+    return _resourcesCounters;
+  }
 }

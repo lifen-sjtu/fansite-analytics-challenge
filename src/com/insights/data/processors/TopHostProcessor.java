@@ -40,4 +40,9 @@ public class TopHostProcessor {
     }
     return PriorityQueueUtil.getTopN(elements, Host.getComparator(), n);
   }
+
+  
+  public Map<String, Long> getHostCounters() {
+    return _hostCounters;
+  }
 }

@@ -55,4 +55,13 @@ public class TopHourProcessor {
     }
     return result;
   }
+
+  
+  public long getTotalVisitCount() {
+    return _totalVisitCount;
+  }
+
+  public long[] getLogCounters() {
+    return _logCounters;
+  }
 }
